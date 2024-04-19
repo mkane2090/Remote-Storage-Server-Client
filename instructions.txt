@@ -1,3 +1,7 @@
 This code is intended to work alongside the server program packaged with the original software distribution.
 
-To setup the client the following must be done:
+To setup the client, run the included setup.sh with sudo privileges.
+sudo sh setup.sh
+
+Sudo privileges are necessary so that the client can ensure that your system has the ability to create python virtual environments.
+If you do not wish for the application to be installed system wide you will have to run the commands yourself with the level of privileges you with for them to have.
